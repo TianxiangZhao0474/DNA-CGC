@@ -1,0 +1,15 @@
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--gnnlayers_h', type=int, default=3, help="Number of gnn layers")
+parser.add_argument('--gnnlayers_l', type=int, default=3, help="Number of gnn layers")
+parser.add_argument('--epochs', type=int, default=400, help='Number of epochs to train.')
+parser.add_argument('--dims', type=int, default=[1000], help='Number of units in hidden layer 1.')
+parser.add_argument('--lr', type=float, default=1e-3, help='Initial learning rate.')
+parser.add_argument('--sigma', type=float, default=0.01, help='Sigma of gaussian distribution')
+parser.add_argument('--dataset', type=str, default='citeseer', help='type of dataset.')
+parser.add_argument('--cluster_num', type=int, default=7, help='type of dataset.')
+parser.add_argument('--device', type=str, default='cuda:0', help='device')
+parser.add_argument('--gama', type=float, default=0.5, help='Loss balance parameter')
+parser.add_argument('--sigma_X', type=float, default=0.2, help='Sigma of gaussian distribution')
+args = parser.parse_args()
