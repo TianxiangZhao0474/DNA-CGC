@@ -6,7 +6,7 @@ We propose a **D**ual-level **N**oise **A**ugmentation for **G**raph **C**luster
 
 ![](https://github.com/TianxiangZhao0474/DNA-GC/blob/main/image/DNA-GC.png)
 <div align=center>
-Figure 1: Illustration of the proposed Dual-level Noise Augmentation for Graph Clustering with Triplet-wise Contrastive Learning (DNA-GC).
+Figure 1: Illustration of the proposed Dual-level Noise Augmentation for Graph Clustering with Triple-wise Contrastive Learning (DNA-GC).
 </div>
 
 ### Start
