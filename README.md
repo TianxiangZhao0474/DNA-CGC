@@ -17,3 +17,17 @@ Figure 1: Illustration of the proposed Dual-level Noise Augmentation for Graph C
 ```
 python train.py
 ```
+### Citation
+
+If you find this repository helpful, please cite our papers.
+
+```
+@article{zhao2025dual,
+  title={Dual-level Noise Augmentation for Graph Clustering with Triplet-wise Contrastive Learning},
+  author={Zhao, Tianxiang and Wang, Youqing and Xu, Shilong and Yang, Tianchuan and Gao, Junbin and Guo, Jipeng},
+  journal={Pattern Recognition},
+  pages={112463},
+  year={2025},
+  publisher={Elsevier}
+}
+```
