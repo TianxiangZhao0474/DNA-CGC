@@ -22,12 +22,13 @@ python train.py
 If you find this repository helpful, please cite our papers.
 
 ```
-@article{zhao2025dual,
+@article{ZHAO2026112463,
   title={Dual-level Noise Augmentation for Graph Clustering with Triplet-wise Contrastive Learning},
   author={Zhao, Tianxiang and Wang, Youqing and Xu, Shilong and Yang, Tianchuan and Gao, Junbin and Guo, Jipeng},
   journal={Pattern Recognition},
+  volume = {172},
   pages={112463},
-  year={2025},
+  year={2026},
   publisher={Elsevier}
 }
 ```
